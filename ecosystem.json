@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "owner": "luyx-66",
+  "sponsor": {
+    "name": "APIMART",
+    "registrationUrl": "https://apimart.ai/register?utm_source=github&utm_medium=profile&utm_campaign=ecosystem_health&utm_content=catalog",
+    "pricingUrl": "https://apimart.ai/pricing?utm_source=github&utm_medium=profile&utm_campaign=ecosystem_health&utm_content=catalog",
+    "documentationUrl": "https://docs.apimart.ai/"
+  },
+  "projects": [
+    {
+      "repository": "ai-generation-benchmarks",
+      "category": "benchmark-hub",
+      "pagesUrl": "https://luyx-66.github.io/ai-generation-benchmarks/"
+    },
+    {
+      "repository": "llm-api-cost-calculator",
+      "category": "developer-tool"
+    },
+    {
+      "repository": "ai-api-load-tester",
+      "category": "developer-tool"
+    },
+    {
+      "repository": "ai-image-generation-api-batch",
+      "category": "workflow-example"
+    },
+    {
+      "repository": "multi-provider-llm-api-examples",
+      "category": "workflow-example"
+    },
+    {
+      "repository": "sora-2-ai-video-generation-api-examples",
+      "category": "workflow-example"
+    },
+    {
+      "repository": "gpt-image2-api-examples",
+      "category": "workflow-example"
+    },
+    {
+      "repository": "best-ai-api-gateway",
+      "category": "evaluation-kit"
+    },
+    {
+      "repository": "openrouter-alternative-openai-compatible-api-provider",
+      "category": "migration-guide"
+    },
+    {
+      "repository": "claude-gpt5-gemini-api-gateway",
+      "category": "workflow-example"
+    },
+    {
+      "repository": "nano-banana-api-examples",
+      "category": "workflow-example"
+    },
+    {
+      "repository": "ai-api-relay-benchmark-cn",
+      "category": "benchmark-cn",
+      "pagesUrl": "https://luyx-66.github.io/ai-api-relay-benchmark-cn/"
+    },
+    {
+      "repository": "openai-api-relay-compatibility-cn",
+      "category": "compatibility-cn",
+      "pagesUrl": "https://luyx-66.github.io/openai-api-relay-compatibility-cn/"
+    },
+    {
+      "repository": "cheap-ai-api-cost-comparison-cn",
+      "category": "cost-guide-cn",
+      "pagesUrl": "https://luyx-66.github.io/cheap-ai-api-cost-comparison-cn/"
+    },
+    {
+      "repository": "ai-api-provider-benchmark",
+      "category": "benchmark",
+      "pagesUrl": "https://luyx-66.github.io/ai-api-provider-benchmark/"
+    },
+    {
+      "repository": "openai-compatible-api-provider-guide",
+      "category": "compatibility-guide",
+      "pagesUrl": "https://luyx-66.github.io/openai-compatible-api-provider-guide/"
+    },
+    {
+      "repository": "affordable-ai-api-comparison",
+      "category": "cost-guide",
+      "pagesUrl": "https://luyx-66.github.io/affordable-ai-api-comparison/"
+    }
+  ]
+}
