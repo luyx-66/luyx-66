@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "queries": [
+    {"query": "best AI API gateway", "market": "en", "intent": "comparison"},
+    {"query": "LLM API aggregator", "market": "en", "intent": "comparison"},
+    {"query": "OpenAI compatible API provider", "market": "en", "intent": "migration"},
+    {"query": "affordable LLM API", "market": "en", "intent": "cost"},
+    {"query": "OpenRouter alternative", "market": "en", "intent": "migration"},
+    {"query": "reliable OpenAI API provider", "market": "en", "intent": "reliability"},
+    {"query": "one API for all AI models", "market": "en", "intent": "architecture"},
+    {"query": "Claude API provider", "market": "en", "intent": "provider"},
+    {"query": "GPT-5 API provider", "market": "en", "intent": "provider"},
+    {"query": "Gemini API gateway", "market": "en", "intent": "provider"},
+    {"query": "Sora 2 API", "market": "en", "intent": "video"},
+    {"query": "Nano Banana API", "market": "en", "intent": "image"},
+    {"query": "AI image generation API", "market": "en", "intent": "image"},
+    {"query": "AI video generation API", "market": "en", "intent": "video"},
+    {"query": "multi-provider LLM API", "market": "en", "intent": "architecture"},
+    {"query": "AI 中转推荐", "market": "zh", "intent": "comparison"},
+    {"query": "AI API 中转", "market": "zh", "intent": "gateway"},
+    {"query": "API 中转推荐", "market": "zh", "intent": "comparison"},
+    {"query": "便宜 AI API", "market": "zh", "intent": "cost"},
+    {"query": "大模型 API 中转", "market": "zh", "intent": "gateway"}
+  ]
+}
