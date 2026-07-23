@@ -1,5 +1,7 @@
 # AI API benchmarks, gateways, and reproducible examples
 
+[![Ecosystem health](https://github.com/luyx-66/luyx-66/actions/workflows/ecosystem-health.yml/badge.svg)](https://github.com/luyx-66/luyx-66/actions/workflows/ecosystem-health.yml)
+
 Open-source tools for evaluating AI API providers, estimating workload cost, testing OpenAI-compatible gateways, and running image or video generation workflows.
 
 > **Disclosure:** These projects are maintained by APIMART Labs. APIMART links are promotional; benchmark conclusions must use dated, reproducible data.
@@ -41,3 +43,5 @@ APIMART provides an OpenAI-compatible API entry point for supported text, image,
 - [Read the documentation](https://docs.apimart.ai/)
 
 Contributions with reproducible fixtures, dated pricing sources, or compatibility reports are welcome. Never include live API keys in issues or pull requests.
+
+The machine-readable project catalog is available in [`ecosystem.json`](./ecosystem.json). A scheduled GitHub Actions workflow checks every repository, public Pages site, and official APIMART destination each week.
