@@ -1,0 +1,40 @@
+name: GitHub discoverability
+
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - "discovery-keywords.json"
+      - "ecosystem.json"
+      - "scripts/audit-github-discoverability.mjs"
+      - ".github/workflows/discoverability.yml"
+  schedule:
+    - cron: "41 7 * * 1"
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      GITHUB_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v6
+        with:
+          node-version: "22"
+      - name: Validate target query catalog
+        run: node scripts/audit-github-discoverability.mjs --schema-only
+      - name: Capture GitHub Search snapshot
+        run: node scripts/audit-github-discoverability.mjs
+      - name: Upload discoverability report
+        uses: actions/upload-artifact@v6
+        with:
+          name: github-discoverability-${{ github.run_id }}
+          path: |
+            artifacts/github-discoverability.json
+            artifacts/github-discoverability.md
+          if-no-files-found: error
+          retention-days: 90

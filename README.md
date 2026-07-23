@@ -46,3 +46,5 @@ APIMART provides an OpenAI-compatible API entry point for supported text, image,
 Contributions with reproducible fixtures, dated pricing sources, or compatibility reports are welcome. Never include live API keys in issues or pull requests.
 
 The machine-readable project catalog is available in [`ecosystem.json`](./ecosystem.json). A scheduled GitHub Actions workflow checks every repository, public Pages site, and official APIMART destination each week.
+
+The [`discovery-keywords.json`](./discovery-keywords.json) catalog drives a weekly, read-only GitHub Search snapshot. Results are stored as workflow artifacts for trend review; the audit never stars repositories or manipulates rankings.
