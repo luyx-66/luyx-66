@@ -9,6 +9,11 @@
   },
   "projects": [
     {
+      "repository": "luyx-66.github.io",
+      "category": "engineering-publication",
+      "pagesUrl": "https://luyx-66.github.io/"
+    },
+    {
       "repository": "ai-generation-benchmarks",
       "category": "benchmark-hub",
       "pagesUrl": "https://luyx-66.github.io/ai-generation-benchmarks/"

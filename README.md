@@ -10,6 +10,7 @@ Open-source tools for evaluating AI API providers, estimating workload cost, tes
 
 | Goal | Project |
 |---|---|
+| Browse practical AI API engineering guides | [APIMART Engineering](https://luyx-66.github.io/) |
 | Compare API providers | [AI API Provider Benchmark](https://github.com/luyx-66/ai-api-provider-benchmark) |
 | Evaluate a gateway | [Best AI API Gateway](https://github.com/luyx-66/best-ai-api-gateway) |
 | Check SDK compatibility | [OpenAI-Compatible API Provider Guide](https://github.com/luyx-66/openai-compatible-api-provider-guide) |
