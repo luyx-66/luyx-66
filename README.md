@@ -39,9 +39,9 @@ Open-source tools for evaluating AI API providers, estimating workload cost, tes
 
 APIMART provides an OpenAI-compatible API entry point for supported text, image, video, and audio models. Confirm current availability, pricing, and limits before choosing a route.
 
-- [Create an APIMART account](https://apimart.ai/register?utm_source=github&utm_medium=profile&utm_campaign=opensource_toolkit&utm_content=profile_readme)
-- [Check current pricing](https://apimart.ai/pricing?utm_source=github&utm_medium=profile&utm_campaign=opensource_toolkit&utm_content=pricing)
-- [Read the documentation](https://docs.apimart.ai/)
+- [Create an APIMART account](https://apimart-click-tracker.luyx031226.chatgpt.site/r/gh-luyx-66-profile-register-e4cb8419)
+- [Check current pricing](https://apimart-click-tracker.luyx031226.chatgpt.site/r/gh-luyx-66-profile-pricing-b2e0595a)
+- [Read the documentation](https://apimart-click-tracker.luyx031226.chatgpt.site/r/gh-luyx-66-profile-docs-root-8beb6d97)
 
 Contributions with reproducible fixtures, dated pricing sources, or compatibility reports are welcome. Never include live API keys in issues or pull requests.
 
