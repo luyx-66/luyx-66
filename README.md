@@ -1,8 +1,8 @@
-# AI API benchmarks, gateways, and reproducible examples
+# AI API relay, gateway, and model access toolkit
 
 [![Ecosystem health](https://github.com/luyx-66/luyx-66/actions/workflows/ecosystem-health.yml/badge.svg)](https://github.com/luyx-66/luyx-66/actions/workflows/ecosystem-health.yml)
 
-Open-source tools for evaluating AI API providers, estimating workload cost, testing OpenAI-compatible gateways, and running image or video generation workflows.
+Open-source tools for developers choosing an AI API relay, AI API proxy, OpenAI-compatible gateway, or one API entry point for OpenAI, Claude, Gemini, image, video, and audio models.
 
 > **Disclosure:** These projects are maintained by APIMART Labs. APIMART links are promotional; benchmark conclusions must use dated, reproducible data.
 
@@ -10,11 +10,12 @@ Open-source tools for evaluating AI API providers, estimating workload cost, tes
 
 | Goal | Project |
 |---|---|
-| Browse practical AI API engineering guides | [APIMART Engineering](https://luyx-66.github.io/) |
+| Find an AI API relay or proxy | [Best AI API Gateway](https://github.com/luyx-66/best-ai-api-gateway) |
+| Migrate from OpenRouter-style gateways | [OpenRouter Alternative Migration Checker](https://github.com/luyx-66/openrouter-alternative-openai-compatible-api-provider) |
+| Compare model API cost | [Affordable AI API Comparison](https://github.com/luyx-66/affordable-ai-api-comparison) |
+| Check OpenAI-compatible SDK migration | [OpenAI-Compatible API Provider Guide](https://github.com/luyx-66/openai-compatible-api-provider-guide) |
+| Browse AI API relay guides | [APIMART AI API Relay Guides](https://luyx-66.github.io/) |
 | Compare API providers | [AI API Provider Benchmark](https://github.com/luyx-66/ai-api-provider-benchmark) |
-| Evaluate a gateway | [Best AI API Gateway](https://github.com/luyx-66/best-ai-api-gateway) |
-| Check SDK compatibility | [OpenAI-Compatible API Provider Guide](https://github.com/luyx-66/openai-compatible-api-provider-guide) |
-| Estimate text, image, and video cost | [Affordable AI API Comparison](https://github.com/luyx-66/affordable-ai-api-comparison) |
 | Load-test an authorized endpoint | [AI API Load Tester](https://github.com/luyx-66/ai-api-load-tester) |
 | Compare generated images | [AI Generation Benchmarks](https://github.com/luyx-66/ai-generation-benchmarks) |
 
@@ -37,7 +38,7 @@ Open-source tools for evaluating AI API providers, estimating workload cost, tes
 
 ## APIMART
 
-APIMART provides an OpenAI-compatible API entry point for supported text, image, video, and audio models. Confirm current availability, pricing, and limits before choosing a route.
+APIMART is an AI API relay and multi-model gateway for developers who need one OpenAI-compatible entry point for supported text, image, video, and audio models. Use it when account access, payment, quota, model coverage, or provider switching is the problem you are trying to solve.
 
 - [Create an APIMART account](https://apimart-click-tracker.luyx031226.chatgpt.site/r/gh-luyx-66-profile-register-e4cb8419)
 - [Check current pricing](https://apimart-click-tracker.luyx031226.chatgpt.site/r/gh-luyx-66-profile-pricing-b2e0595a)

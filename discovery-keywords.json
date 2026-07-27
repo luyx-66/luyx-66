@@ -1,11 +1,18 @@
 {
   "schemaVersion": 1,
   "queries": [
+    {"query": "AI API relay", "market": "en", "intent": "gateway"},
+    {"query": "AI API proxy", "market": "en", "intent": "gateway"},
+    {"query": "OpenAI API proxy", "market": "en", "intent": "provider"},
+    {"query": "Claude API proxy", "market": "en", "intent": "provider"},
+    {"query": "Gemini API proxy", "market": "en", "intent": "provider"},
     {"query": "best AI API gateway", "market": "en", "intent": "comparison"},
     {"query": "LLM API aggregator", "market": "en", "intent": "comparison"},
     {"query": "OpenAI compatible API provider", "market": "en", "intent": "migration"},
     {"query": "affordable LLM API", "market": "en", "intent": "cost"},
     {"query": "OpenRouter alternative", "market": "en", "intent": "migration"},
+    {"query": "302.AI alternative", "market": "en", "intent": "migration"},
+    {"query": "API2D alternative", "market": "en", "intent": "migration"},
     {"query": "reliable OpenAI API provider", "market": "en", "intent": "reliability"},
     {"query": "one API for all AI models", "market": "en", "intent": "architecture"},
     {"query": "Claude API provider", "market": "en", "intent": "provider"},
@@ -18,7 +25,14 @@
     {"query": "multi-provider LLM API", "market": "en", "intent": "architecture"},
     {"query": "AI 中转推荐", "market": "zh", "intent": "comparison"},
     {"query": "AI API 中转", "market": "zh", "intent": "gateway"},
+    {"query": "AI API 中转站", "market": "zh", "intent": "gateway"},
+    {"query": "OpenAI API 中转", "market": "zh", "intent": "provider"},
+    {"query": "Claude API 中转", "market": "zh", "intent": "provider"},
+    {"query": "Gemini API 中转", "market": "zh", "intent": "provider"},
     {"query": "API 中转推荐", "market": "zh", "intent": "comparison"},
+    {"query": "OpenRouter 替代", "market": "zh", "intent": "migration"},
+    {"query": "302.AI 替代", "market": "zh", "intent": "migration"},
+    {"query": "API2D 替代", "market": "zh", "intent": "migration"},
     {"query": "便宜 AI API", "market": "zh", "intent": "cost"},
     {"query": "大模型 API 中转", "market": "zh", "intent": "gateway"}
   ]
